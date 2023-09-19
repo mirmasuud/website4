@@ -1,0 +1,74 @@
+@media(max-width:763px){
+    body{
+        background-image: url(image/Bitmap\ tab.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .header{
+        justify-content: space-between;
+        margin: 0 5%;
+    }
+    .devider{
+        display: none;
+    }
+    .hero{
+        flex-direction: column;
+        align-items: center;
+    }
+    .navmenu{
+        width: 80%;
+    }
+    .navmenu a{
+        font-size: 12px;
+        margin: 0 20px;
+    }
+    .content{
+        margin-top: 50px;
+    }
+    .explore{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+@media(max-width:370px){
+    .header{
+        margin: 10px 5%;
+    }
+    .navmenu a{
+        display: none;
+    }
+    .hero{
+        align-items: center;
+        margin-top: 100px;
+    }
+    .content{
+        width: 80%;
+
+    }
+    .content h1{
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+    .content h5{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    
+    .content p{
+        font-size: 12px;
+    }
+    .explore{
+        height: 174px;
+        width: 174px;
+        margin-top: -100px;
+    }
+    .explore a{
+        font-size: 18px;
+        top: 80px;
+    }
+    body{
+        background-repeat: repeat-y;
+    }
+    }
+
+    
